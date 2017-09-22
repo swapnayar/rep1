@@ -24,6 +24,7 @@ public class Compose extends DriverClass
 	  driver.findElement(By.id("Subj")).sendKeys("hello");
 	  driver.findElement(By.name("Content")).sendKeys("this is sample mail");
 	  driver.findElement(By.id("send_top")).click();
+	  System.out.println("AAAAA");
   }
   public void signout()
   {  
